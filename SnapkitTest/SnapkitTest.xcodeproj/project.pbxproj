@@ -13,6 +13,8 @@
 		283A917526A160B800E17081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283A917326A160B800E17081 /* Main.storyboard */; };
 		283A917726A160B900E17081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283A917626A160B900E17081 /* Assets.xcassets */; };
 		283A917A26A160B900E17081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283A917826A160B900E17081 /* LaunchScreen.storyboard */; };
+		283A918226A1856900E17081 /* FoodCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A918126A1856900E17081 /* FoodCategoryView.swift */; };
+		283A918626A18A5600E17081 /* UIImageView+LoadImageOverNetworkExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A918526A18A5600E17081 /* UIImageView+LoadImageOverNetworkExtension.swift */; };
 		B91B2837013773B393887951 /* Pods_SnapkitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C729361E6D47E6603535F3B4 /* Pods_SnapkitTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		283A917626A160B900E17081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		283A917926A160B900E17081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		283A917B26A160B900E17081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283A918126A1856900E17081 /* FoodCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategoryView.swift; sourceTree = "<group>"; };
+		283A918526A18A5600E17081 /* UIImageView+LoadImageOverNetworkExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+LoadImageOverNetworkExtension.swift"; sourceTree = "<group>"; };
 		2CB3E6AB0E5FEBFBD0E61624 /* Pods-SnapkitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapkitTest.release.xcconfig"; path = "Target Support Files/Pods-SnapkitTest/Pods-SnapkitTest.release.xcconfig"; sourceTree = "<group>"; };
 		B185B37C8BE456EFB48BEC75 /* Pods-SnapkitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapkitTest.debug.xcconfig"; path = "Target Support Files/Pods-SnapkitTest/Pods-SnapkitTest.debug.xcconfig"; sourceTree = "<group>"; };
 		C729361E6D47E6603535F3B4 /* Pods_SnapkitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapkitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +70,8 @@
 				283A916D26A160B800E17081 /* AppDelegate.swift */,
 				283A916F26A160B800E17081 /* SceneDelegate.swift */,
 				283A917126A160B800E17081 /* ViewController.swift */,
+				283A918126A1856900E17081 /* FoodCategoryView.swift */,
+				283A918526A18A5600E17081 /* UIImageView+LoadImageOverNetworkExtension.swift */,
 				283A917326A160B800E17081 /* Main.storyboard */,
 				283A917626A160B900E17081 /* Assets.xcassets */,
 				283A917826A160B900E17081 /* LaunchScreen.storyboard */,
@@ -207,7 +213,9 @@
 			files = (
 				283A917226A160B800E17081 /* ViewController.swift in Sources */,
 				283A916E26A160B800E17081 /* AppDelegate.swift in Sources */,
+				283A918226A1856900E17081 /* FoodCategoryView.swift in Sources */,
 				283A917026A160B800E17081 /* SceneDelegate.swift in Sources */,
+				283A918626A18A5600E17081 /* UIImageView+LoadImageOverNetworkExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
