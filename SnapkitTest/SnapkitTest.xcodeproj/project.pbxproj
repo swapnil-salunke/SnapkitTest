@@ -10,9 +10,10 @@
 		2823822B26A54E7B0026A522 /* Cars.json in Resources */ = {isa = PBXBuildFile; fileRef = 2823822A26A54E7B0026A522 /* Cars.json */; };
 		2823822D26A550AB0026A522 /* CarsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2823822C26A550AB0026A522 /* CarsData.swift */; };
 		2823822F26A552B40026A522 /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2823822E26A552B40026A522 /* JsonData.swift */; };
+		2823823126A582D90026A522 /* CarListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2823823026A582D90026A522 /* CarListViewModel.swift */; };
 		283A916E26A160B800E17081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A916D26A160B800E17081 /* AppDelegate.swift */; };
 		283A917026A160B800E17081 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A916F26A160B800E17081 /* SceneDelegate.swift */; };
-		283A917226A160B800E17081 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A917126A160B800E17081 /* ViewController.swift */; };
+		283A917226A160B800E17081 /* CarsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A917126A160B800E17081 /* CarsListController.swift */; };
 		283A917526A160B800E17081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283A917326A160B800E17081 /* Main.storyboard */; };
 		283A917726A160B900E17081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283A917626A160B900E17081 /* Assets.xcassets */; };
 		283A917A26A160B900E17081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283A917826A160B900E17081 /* LaunchScreen.storyboard */; };
@@ -26,7 +27,7 @@
 		283A916A26A160B800E17081 /* SnapkitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapkitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		283A916D26A160B800E17081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		283A916F26A160B800E17081 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		283A917126A160B800E17081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		283A917126A160B800E17081 /* CarsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsListController.swift; sourceTree = "<group>"; };
 		283A917426A160B800E17081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		283A917626A160B900E17081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		283A917926A160B900E17081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,8 +72,9 @@
 			children = (
 				283A916D26A160B800E17081 /* AppDelegate.swift */,
 				283A916F26A160B800E17081 /* SceneDelegate.swift */,
-				283A917126A160B800E17081 /* ViewController.swift */,
+				283A917126A160B800E17081 /* CarsListController.swift */,
 				2823822C26A550AB0026A522 /* CarsData.swift */,
+				2823823026A582D90026A522 /* CarListViewModel.swift */,
 				2823822E26A552B40026A522 /* JsonData.swift */,
 				283A917326A160B800E17081 /* Main.storyboard */,
 				283A917626A160B900E17081 /* Assets.xcassets */,
@@ -215,9 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				283A917226A160B800E17081 /* ViewController.swift in Sources */,
+				283A917226A160B800E17081 /* CarsListController.swift in Sources */,
 				283A916E26A160B800E17081 /* AppDelegate.swift in Sources */,
 				2823822D26A550AB0026A522 /* CarsData.swift in Sources */,
+				2823823126A582D90026A522 /* CarListViewModel.swift in Sources */,
 				283A917026A160B800E17081 /* SceneDelegate.swift in Sources */,
 				2823822F26A552B40026A522 /* JsonData.swift in Sources */,
 			);
