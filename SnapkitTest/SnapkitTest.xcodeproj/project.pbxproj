@@ -24,6 +24,7 @@
 		2823822A26A54E7B0026A522 /* Cars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Cars.json; sourceTree = "<group>"; };
 		2823822C26A550AB0026A522 /* CarsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsData.swift; sourceTree = "<group>"; };
 		2823822E26A552B40026A522 /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
+		2823823026A582D90026A522 /* CarListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewModel.swift; sourceTree = "<group>"; };
 		283A916A26A160B800E17081 /* SnapkitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapkitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		283A916D26A160B800E17081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		283A916F26A160B800E17081 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
